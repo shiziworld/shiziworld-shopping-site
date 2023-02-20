@@ -1,0 +1,48 @@
+#jb1 {
+    background-image: url("Images/mountains.jpeg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: rgb(142, 185, 254);
+}
+
+.card {
+    display: block;
+    margin: auto;
+    border: none;
+    filter: drop-shadow(0 0 0.5rem rgb(215, 215, 215));
+    padding: 20px;
+    width: 80%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.navbar {
+    background-color: rgb(5, 130, 255);
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        background-color: rgb(255, 60, 0);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        background-color: rgb(251, 0, 255);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .col {
+        display: block;
+        width: 100vw;
+    }
+    .card {
+        width: 100%;
+    }
+}
